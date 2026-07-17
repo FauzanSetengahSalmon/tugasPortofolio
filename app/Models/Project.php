@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
-    protected $fillable = ['profile_id', 'name', 'description', 'link', 'tech_stack', 'image', 'order'];
+    protected $fillable = ['profile_id', 'name', 'description', 'link', 'tech_stack', 'thumbnail', 'order'];
     public function profile()
     {
         return $this->belongsTo(Profile::class);

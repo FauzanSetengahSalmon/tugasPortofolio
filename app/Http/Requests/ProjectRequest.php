@@ -27,7 +27,7 @@ class ProjectRequest extends FormRequest
             'description' => ['nullable', 'string'],
             'link' => ['nullable', 'url', 'max:255'],
             'tech_stack' => ['nullable', 'string', 'max:255'],
-            'image' => ['nullable', 'image', 'max:2048'],
+            'thumbnail' => ['nullable', 'image', 'max:2048'],
         ];
     }
 }

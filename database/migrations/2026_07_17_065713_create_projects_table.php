@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('link')->nullable();
             $table->string('tech_stack');
-            $table->String('image')->nullable();
+            $table->string('thumbnail')->nullable();
             $table->integer('order')->default(0);
             $table->timestamps();
         });

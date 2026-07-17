@@ -14,7 +14,7 @@ class ProfileSeeder extends Seeder
             'headline' => 'Software Engineering Student & Fullstack Developer & AR/VR Enthusiast',
             'biography' => 'Mahasiswa  yang fokus pada pengembangan web fullstack dan juga mengeksplorasi teknologi AR/VR.',
             'email' => 'fauzangg83728@gmail.com',
-            'linkedin' => 'https://linkedin.com/in/fauzan',
+            'linkedin' => 'https://www.linkedin.com/in/ahmad-fauzan-ramadhan-a53595315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
             'github' => 'https://github.com/FauzanSetengahSalmon'
         ]);
 
